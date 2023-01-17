@@ -1,0 +1,47 @@
+.DataContainer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 242px;
+    height: 40px;
+    top: 160px;
+    background: #14172B;
+    border-radius: 17px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__title {
+        flex: 1;
+        margin: 0px;
+        font-family: 'Tomorrow', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 31px;
+        text-align: center;
+        color: #ECF0FF;
+        opacity: 0.9;
+        text-align: right;
+
+        &__center {
+            text-align: center;
+        }
+    }
+
+    &__subtitle {
+        margin: 0px;
+        width: 90px;
+        font-family: 'Tomorrow', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #00FFA3;
+        opacity: 0.9;
+
+        &__Minus {
+            color: #FF4D4D;
+        }
+    }
+}
